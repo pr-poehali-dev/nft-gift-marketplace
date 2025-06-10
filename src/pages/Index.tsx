@@ -37,6 +37,14 @@ const Index = () => {
       link: "/buyout",
       gradient: "bg-gradient-to-r from-orange-500 to-red-500",
     },
+    {
+      title: "Услуги гаранта",
+      description:
+        "Безопасные сделки через посредника с полной защитой от мошенничества",
+      icon: "Shield",
+      link: "/guarantor",
+      gradient: "bg-gradient-to-r from-emerald-500 to-teal-500",
+    },
   ];
 
   return (
@@ -54,7 +62,7 @@ const Index = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-16">
           {features.map((feature) => (
             <FeatureCard key={feature.title} {...feature} />
           ))}

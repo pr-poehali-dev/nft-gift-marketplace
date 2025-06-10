@@ -10,6 +10,7 @@ const Header = () => {
     { name: "Продажа", path: "/sell", icon: "TrendingUp" as const },
     { name: "Флор", path: "/floor", icon: "BarChart3" as const },
     { name: "Выкуп", path: "/buyout", icon: "Handshake" as const },
+    { name: "Гарант", path: "/guarantor", icon: "Shield" as const },
   ];
 
   return (

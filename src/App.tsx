@@ -8,6 +8,7 @@ import BuyPage from "./pages/BuyPage";
 import SellPage from "./pages/SellPage";
 import FloorPage from "./pages/FloorPage";
 import BuyoutPage from "./pages/BuyoutPage";
+import GuarantorPage from "./pages/GuarantorPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/sell" element={<SellPage />} />
           <Route path="/floor" element={<FloorPage />} />
           <Route path="/buyout" element={<BuyoutPage />} />
+          <Route path="/guarantor" element={<GuarantorPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
